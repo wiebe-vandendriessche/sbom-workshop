@@ -138,10 +138,23 @@ permissions:
      contents: write
 ```
 
+Let's add some caching to speed things up, edit the go setup to look like this:
+
+```yaml
+- name: Set up Go
+      uses: actions/setup-go@v4
+      with:
+        go-version: '1.20'
+        cache: true
+        cache-dependency-path: go-feather-action/go.sum 
+```
+
 Edit the build line to match our project structure:
 ```yaml
 - name: Build
-  run: go build -v -o feather ./go-feather-action/cmd/fledge
+  working-directory: go-feather-action
+  run: |
+    go build -v -o feather-binary ./cmd/fledge
 ```
 
 Create an artifact from the binary, available to anyone with access to the repository:
@@ -150,7 +163,7 @@ Create an artifact from the binary, available to anyone with access to the repos
   uses: actions/upload-artifact@v4
   with:
     name: feather-binary
-    path: feather-binary
+    path: go-feather-action/feather-binary
 ```
 
 Great, you've succesfully built and published a go binary!
@@ -163,7 +176,7 @@ Let's make an SBoM for it.
     curl -sSfL https://raw.githubusercontent.com/anchore/syft/main/install.sh | sh -s -- -b /usr/local/bin
 
 - name: Create SBOM
-  run: syft feather-binary -o spdx-json > syft-sbom.json
+  run: syft go-feather-action/feather-binary -o spdx-json > syft-sbom.json
 
 - name: Upload artifacts
   uses: actions/upload-artifact@v4
