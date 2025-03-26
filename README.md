@@ -340,7 +340,9 @@ There's still no one-size-fits-all. Different languages, packaging methods, and 
 
 SBoMs are not just about compliance. They're a way to get visibility into what you ship, and they make security and maintenance work a lot less painful in the long run. If you treat them as a core part of your release pipeline, not an afterthought, they will pay off.
 
-**That's it.** If you got this far and are still not tired of the word SBoM, you could now try these tools on one of your own projects or even create and release a signed SBoM for one of your own pipelines? Maybe even try to detect some vulnerabilities of license issues?
+**That's it.** If you got this far and are still not tired of the word SBoM, you could now try these tools on one of your own projects or even create and release a signed SBoM for one of your own pipelines? Maybe even try to detect some vulnerabilities or license issues?
+
+Good luck!
 
 
 **All the tools used in this workshop:**
