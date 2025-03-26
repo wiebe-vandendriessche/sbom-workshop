@@ -143,7 +143,7 @@ Edit the build line to match our project structure:
 - name: Build
   run: |
     cd go-feather-action
-    go build -v -o feather ./cmd/fledge
+    go build -v -o feather-binary ./cmd/fledge
 ```
 
 Create an artifact from the binary, available to anyone with access to the repository:
