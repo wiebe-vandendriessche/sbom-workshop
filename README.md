@@ -173,7 +173,7 @@ Create an artifact from the binary, available to anyone with access to the repos
     path: go-feather-action/feather-binary
 ```
 
-Great, you've successfully built and published a go binary! Note that these artifacts will expire in a few months so you might want to add [a release](https://github.com/actions/create-release) but this is not within the scope of this workshop. 
+Great, you've successfully built and published a go binary! Note that these artifacts will expire in a few months so you might want to add [a release](https://github.com/marketplace/actions/create-release) but this is not within the scope of this workshop. 
 
 Let's now make an SBoM for your binary:
 
