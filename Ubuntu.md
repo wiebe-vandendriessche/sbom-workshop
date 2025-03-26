@@ -43,9 +43,18 @@ sudo apt install maven
 
 Install Cosign to verify SBoM signatures:
 
+**for x86:**
 ```bash
 curl -O -L "https://github.com/sigstore/cosign/releases/latest/download/cosign-linux-amd64"
 sudo mv cosign-linux-amd64 /usr/local/bin/cosign
+sudo chmod +x /usr/local/bin/cosign
+
+```
+
+**for arm64:**
+```bash
+curl -O -L "https://github.com/sigstore/cosign/releases/latest/download/cosign-linux-arm64"
+sudo mv cosign-linux-arm64 /usr/local/bin/cosign
 sudo chmod +x /usr/local/bin/cosign
 
 ```
