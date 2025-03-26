@@ -72,7 +72,7 @@ Let's inspect the SBoM! This time (if you did everything right), a beautiful SBo
 
 This time we did actually manage to generate a decent SBoM from the executable. We used maven shade to create an uber-JAR which has all dependencies built-in so it's easy for Syft to extract them.
 
-To conclude this section on generating SBoMs from artifacts we want to highlight that it can be a bit of a mixed bag. While it can be useful for your users that they can generate an SBoM themselves it does require a high degree of insight in the way your software is packaged. Optimizers or obfuscators could for example make it nearly impossible to generate an SBoM from an artifact so be mindful of this.
+To conclude this section on generating SBoMs from artifacts we want to highlight that it can be a bit of a mixed bag. While it can be useful for your users that they can generate an SBoM themselves, it does require a high degree of insight in the way your software is packaged. Optimizers or obfuscators could for example make it nearly impossible to generate an SBoM from an artifact so be mindful of this.
 
 If your development process doesn't fit this generation method you can also generate an SBoM during the build process, which we will discuss in the next section.
 
