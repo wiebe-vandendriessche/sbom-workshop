@@ -3,7 +3,7 @@
 This document outlines the SBoM generated from the Jave project in this workshop. You can follow along with your SBoM, details such as hashes or timestamps will likely be different.
 
 ## 1. File Format and Overall Structure  
-The document follows the [SPDX 2.3](https://spdx.github.io/spdx-spec/) format, a standard for Software Bill of Materials (SBoM) data. It starts with metadata describing:  
+The document follows the [SPDX 2.3](https://spdx.github.io/spdx-spec/v2.3/) format, a standard for Software Bill of Materials (SBoM) data. It starts with metadata describing:  
 - **Who created the SBoM**: `Anchore, Inc`, using `syft-1.20.0`  
 - **When it was created**: `2025-03-20T15:10:57Z` (yours will be different)
 - **License terms for the SBoM itself**: `CC0-1.0` (public domain)  
