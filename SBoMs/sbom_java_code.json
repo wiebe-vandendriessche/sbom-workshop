@@ -1,0 +1,252 @@
+{
+    "spdxVersion": "SPDX-2.3",
+    "dataLicense": "CC0-1.0",
+    "SPDXID": "SPDXRef-DOCUMENT",
+    "name": "myapp-1.0-SNAPSHOT.jar",
+    "documentNamespace": "https://anchore.com/syft/file/myapp-1.0-SNAPSHOT.jar-216dceaf-e98a-4f3d-abb1-2e84eed1360f",
+    "creationInfo": {
+        "licenseListVersion": "3.25",
+        "creators": [
+            "Organization: Anchore, Inc",
+            "Tool: syft-1.20.0"
+        ],
+        "created": "2025-03-26T16:32:26Z"
+    },
+    "packages": [
+        {
+            "name": "gson",
+            "SPDXID": "SPDXRef-Package-java-archive-gson-5ad09bbb01311a9e",
+            "versionInfo": "2.10.1",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "sourceInfo": "acquired package info from installed java archive: /myapp-1.0-SNAPSHOT.jar",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "Apache-2.0",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:com.google.code.gson:gson:2.10.1:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:google:gson:2.10.1:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:code:gson:2.10.1:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:gson:gson:2.10.1:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/com.google.code.gson/gson@2.10.1"
+                }
+            ]
+        },
+        {
+            "name": "json",
+            "SPDXID": "SPDXRef-Package-java-archive-json-e2b5f6bce76bbfb9",
+            "versionInfo": "20210307",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "sourceInfo": "acquired package info from installed java archive: /myapp-1.0-SNAPSHOT.jar",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "LicenseRef-The-JSON-License",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:org.sonatype.oss:json:20210307:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:org.json:json:20210307:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:sonatype:json:20210307:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:json:json:20210307:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:oss:json:20210307:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/org.json/json@20210307"
+                }
+            ]
+        },
+        {
+            "name": "myapp",
+            "SPDXID": "SPDXRef-Package-java-archive-myapp-ceee1401ecfca480",
+            "versionInfo": "1.0-SNAPSHOT",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "22b1836da418f69a4306d2a1df70efe3897b1cae"
+                }
+            ],
+            "sourceInfo": "acquired package info from installed java archive: /myapp-1.0-SNAPSHOT.jar",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "LicenseRef-Apache-License--Version-2.0",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:com.example.App:myapp:1.0-SNAPSHOT:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:com.example:myapp:1.0-SNAPSHOT:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:example:myapp:1.0-SNAPSHOT:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:myapp:myapp:1.0-SNAPSHOT:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:App:myapp:1.0-SNAPSHOT:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:maven/com.example/myapp@1.0-SNAPSHOT"
+                }
+            ]
+        },
+        {
+            "name": "myapp-1.0-SNAPSHOT.jar",
+            "SPDXID": "SPDXRef-DocumentRoot-File-myapp-1.0-SNAPSHOT.jar",
+            "versionInfo": "sha256:45cae432c024afd63f99b235c835b48f2ac3ea71db55338654a64058d1cd065a",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "checksums": [
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "45cae432c024afd63f99b235c835b48f2ac3ea71db55338654a64058d1cd065a"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "copyrightText": "NOASSERTION",
+            "primaryPackagePurpose": "FILE"
+        }
+    ],
+    "files": [
+        {
+            "fileName": "myapp-1.0-SNAPSHOT.jar",
+            "SPDXID": "SPDXRef-File-myapp-1.0-SNAPSHOT.jar-b1f239afb08fe496",
+            "fileTypes": [
+                "APPLICATION"
+            ],
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "22b1836da418f69a4306d2a1df70efe3897b1cae"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "45cae432c024afd63f99b235c835b48f2ac3ea71db55338654a64058d1cd065a"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ],
+            "copyrightText": "NOASSERTION"
+        }
+    ],
+    "hasExtractedLicensingInfos": [
+        {
+            "licenseId": "LicenseRef-Apache-License--Version-2.0",
+            "extractedText": "Apache License, Version 2.0"
+        },
+        {
+            "licenseId": "LicenseRef-The-JSON-License",
+            "extractedText": "The JSON License"
+        }
+    ],
+    "relationships": [
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-gson-5ad09bbb01311a9e",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-myapp-ceee1401ecfca480",
+            "relationshipType": "DEPENDENCY_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-json-e2b5f6bce76bbfb9",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-myapp-ceee1401ecfca480",
+            "relationshipType": "DEPENDENCY_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-gson-5ad09bbb01311a9e",
+            "relatedSpdxElement": "SPDXRef-File-myapp-1.0-SNAPSHOT.jar-b1f239afb08fe496",
+            "relationshipType": "OTHER",
+            "comment": "evident-by: indicates the package's existence is evident by the given file"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-myapp-ceee1401ecfca480",
+            "relatedSpdxElement": "SPDXRef-File-myapp-1.0-SNAPSHOT.jar-b1f239afb08fe496",
+            "relationshipType": "OTHER",
+            "comment": "evident-by: indicates the package's existence is evident by the given file"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-java-archive-json-e2b5f6bce76bbfb9",
+            "relatedSpdxElement": "SPDXRef-File-myapp-1.0-SNAPSHOT.jar-b1f239afb08fe496",
+            "relationshipType": "OTHER",
+            "comment": "evident-by: indicates the package's existence is evident by the given file"
+        },
+        {
+            "spdxElementId": "SPDXRef-DocumentRoot-File-myapp-1.0-SNAPSHOT.jar",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-gson-5ad09bbb01311a9e",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-DocumentRoot-File-myapp-1.0-SNAPSHOT.jar",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-json-e2b5f6bce76bbfb9",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-DocumentRoot-File-myapp-1.0-SNAPSHOT.jar",
+            "relatedSpdxElement": "SPDXRef-Package-java-archive-myapp-ceee1401ecfca480",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-DOCUMENT",
+            "relatedSpdxElement": "SPDXRef-DocumentRoot-File-myapp-1.0-SNAPSHOT.jar",
+            "relationshipType": "DESCRIBES"
+        }
+    ]
+}
