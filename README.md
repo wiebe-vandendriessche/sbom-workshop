@@ -2,6 +2,10 @@
 
 Welcome to the SBoM workshop! In this workshop we will guide you through generating and automating SBoMs! This workshop is designed for Ubuntu. The [install.md](install.md) file contains more info on how to set up the tools.
 
+It would be best to [fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) this repository so you have you own copy. This is important when working with GitHub Actions. 
+
+Once you have forked your repository, clone it to your Ubuntu machine.
+
 If you have any question or are stuck anywhere, don't hesitate to ask us!
 
 ## Generate a Software Bill of Materials
