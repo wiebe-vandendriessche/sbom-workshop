@@ -1,6 +1,6 @@
 # Understanding the SBoM
 
-This document outlines the SBoM generated from the `myapp` project in this workshop. You can follow along with your SBoM but details such as hashes or timestamps will likely differ.
+This document outlines the SBoM generated from the `myapp` project in this workshop. You can follow along with your SBoM but details such as hashes or timestamps will likely differ. We also have an example available [here](SBoMs/sbom_java_code.json).
 
 ## 1. File Format and Overall Structure  
 The document follows the [SPDX 2.3](https://spdx.github.io/spdx-spec/v2.3/) format, a standard for Software Bill of Materials (SBoM) data. It begins with metadata describing:  
