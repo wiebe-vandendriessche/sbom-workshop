@@ -1,6 +1,6 @@
 # SBoM-Workshop
 
-Welcome to the SBoM workshop! In this workshop we will guide you through generating and automating SBoMs! You should have a VM with all tools and requirements pre-installed but we have included a `install.sh` file that you can reference should you wish to install any tools on your own devices.
+Welcome to the SBoM workshop! In this workshop we will guide you through generating and automating SBoMs! This workshop is designed for Ubuntu. The [install.md](install.md) file contains more info on how to set up the tools.
 
 If you have any question or are stuck anywhere, don't hesitate to ask us!
 
