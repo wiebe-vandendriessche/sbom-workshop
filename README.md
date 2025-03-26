@@ -141,7 +141,9 @@ permissions:
 Edit the build line to match our project structure:
 ```yaml
 - name: Build
-  run: go build -v -o feather ./go-feather-action/cmd/fledge
+  run: |
+    cd go-feather-action
+    go build -v -o feather ./cmd/fledge
 ```
 
 Create an artifact from the binary, available to anyone with access to the repository:
