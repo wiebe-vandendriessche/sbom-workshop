@@ -120,7 +120,7 @@ This should output your SBoM at `target/site/com.example_myapp-1.0-SNAPSHOT.spdx
 
 If you compare the SBoMs you'll see a few differences. The Syft SBoM we generated from the JAR contains only internal dependency information with much richer vulnerability information, useful for an end-user but maybe not 100% complete either as your build toolchain might introduce vulnerabilities of its own. The Maven plugin does not contain as much information on vulnerability assessment but is richer on the dev environment info. Both should be adequate to 'comply' with regulations, but an organization releasing software should analyze their use for SBoMs further and decide based on that which one they release (you could also release both, but this might confuse users).
 
-These sections gave you a small overview of different generation methods. As SBoMs are still quite new, we unfortunately cannot tell you exactly how te generate YOUR SBoMs. In general it comes down to analyzing your processes and testing different tools. Find the tools that provide the highest degree of insight in your entire process and work well with analysis tools (more on those later).
+These sections gave you a small overview of different generation methods. As SBoMs are still quite new, we unfortunately cannot tell you exactly how te generate YOUR SBoMs. In general it comes down to analyzing your processes and testing different tools. Find the tools that provide the highest degree of insight into your entire process and that work well with analysis tools (more on those later).
 
 ### 3- Generate in CI/CD
 
