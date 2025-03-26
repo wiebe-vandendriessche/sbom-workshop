@@ -12,7 +12,7 @@ If you have any question or are stuck anywhere, don't hesitate to ask us!
 
 ## Generate a Software Bill of Materials
 
-A Software Bill of Materials is an essential part of producing or using software. While you could theoretically create one yourself, it is often better to have an automated tools generate one for you. The following section provides you with an overview of some of the different methods for generating SBoMs. Note that this is not an exhaustive list of options, there is a plethora of open-source tools that work with specific toolchains and we cannot possibly cover them all here.
+A Software Bill of Materials is an essential part of producing or using software. While you could theoretically create one yourself, it is often better to have an automated tool generate one for you. The following section provides you with an overview of some of the different methods for generating SBoMs. Note that this is not an exhaustive list of options, there is a plethora of open-source tools that work with specific toolchains and we cannot possibly cover them all here.
 
 >We have included formatted copies of each SBoM you will generate in the `SBoMs` folder.
 
