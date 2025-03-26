@@ -5,7 +5,7 @@ Download and install VirtualBox for your OS: https://www.virtualbox.org/wiki/Dow
 Restart your computer.
 
 Download the VM:
-- Arm (Apple Silicon): https://cloud.ilabt.imec.be/index.php/s/er4atfBsJwDTn3E
+- Arm (Apple Silicon): [https://cloud.ilabt.imec.be/index.php/s/er4atfBsJwDTn3E](https://cloud.ilabt.imec.be/index.php/s/eCAYwwaxGTXbfSf)
 - x86: https://cloud.ilabt.imec.be/index.php/s/5DH2d5dtEFgjsrb
 
 > These VMs have user `sbom` with password `sbom`. 
