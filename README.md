@@ -251,7 +251,7 @@ Cosign can also verify all this for you so you don't have to manually check all 
 ```bash
 cosign verify-blob \
         --bundle <downloaded bundle file> \
-        --certificate-identity "https://github.com/<your-gh-username>/sbom-workshop-go/.github/workflows/go.yml@refs/heads/main" \
+        --certificate-identity "https://github.com/<your-gh-username>/sbom-workshop/.github/workflows/go.yml@refs/heads/main" \
         --certificate-oidc-issuer "https://token.actions.githubusercontent.com" \
         <downloaded SBoM file>
 ```
