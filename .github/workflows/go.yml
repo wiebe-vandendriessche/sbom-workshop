@@ -47,8 +47,27 @@ jobs:
         name: syft-sbom.json
         path: syft-sbom.json
 
+    - name: Install Cosign
+      uses: sigstore/cosign-installer@v3.8.1
+
+    - name: Sign SBOM
+      env:
+        COSIGN_EXPERIMENTAL: 1
+      run: |
+        cosign sign-blob --oidc-issuer https://token.actions.githubusercontent.com \
+          --bundle syft-sbom.bundle \
+          --yes \
+          syft-sbom.json
+    
+    - name: Upload artifacts
+      uses: actions/upload-artifact@v4
+        with:
+          name: cosign-bundle
+          path: syft-sbom.bundle
+
     permissions:
       contents: read
+      id-token: write
 
     
       
