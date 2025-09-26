@@ -61,9 +61,9 @@ jobs:
     
     - name: Upload artifacts
       uses: actions/upload-artifact@v4
-        with:
-          name: cosign-bundle
-          path: syft-sbom.bundle
+      with:
+        name: cosign-bundle
+        path: syft-sbom.bundle
 
     permissions:
       contents: read
